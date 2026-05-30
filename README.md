@@ -99,14 +99,3 @@ xc7a35tcpg236-1
    - afisajul face countdown 10 secunde
    - LED-urile arata `F000`
 
-## GitHub Actions
-
-Repository-ul include un workflow simplu care verifica analiza/elaborarea VHDL cu GHDL la fiecare push sau pull request.
-
-Fisier:
-
-```text
-.github/workflows/vhdl-check.yml
-```
-
-Acest workflow este doar pentru verificare rapida de sintaxa/elaborare. Pentru generarea bitstream-ului foloseste Vivado.
